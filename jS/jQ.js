@@ -54,5 +54,13 @@ define(["jquery"], function($){
 			$("#contact").css({fontSize : "1.5em"});
 		});
 		
+		//highlight gitHub page when you hove over portfolio gitHub text
+		$(".gitHubhighlight").mouseover(function(){
+			$(".github").addClass("git");
+		});
+		//remover github highlight when yuo move out of gitHub text
+		$(".gitHubhighlight").mouseout(function(){
+			$(".github").removeClass("git");
+		});
 	});
 });
