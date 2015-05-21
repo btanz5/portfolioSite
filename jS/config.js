@@ -11,6 +11,8 @@ require.config({
 		jquery: "jSLibs/jquery-1.11.2.min",
 		underscore: "jSLibs/underscore-min",
 		backbone: "jSLibs/backbone-min",
+		jQ: "jQ",
+		formVal: "formVal"
 	}
 });
 require(["app"], function(App){
