@@ -1,11 +1,4 @@
-define([
-	"jquery",
-	"underscore",
-	"backbone",
-	"views/skillsView",
-	"views/resumeView",
-	"views/portfolioView",
-	"views/contactView"], function($, _, Backbone, SkillsView, ResumeView, PortfolioView, ContactView){
+define(["jquery", "underscore", "backbone", "views/skillsView", "views/resumeView", "views/portfolioView", "views/contactView"], function($, _, Backbone, SkillsView, ResumeView, PortfolioView, ContactView){
 		var initialize = function(){
 						/*
 			Backbone Routers

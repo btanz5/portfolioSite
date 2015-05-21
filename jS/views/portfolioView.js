@@ -1,8 +1,4 @@
-define([
-	"jquery",
-	"underscore",
-	"backbone",
-	"jQ"], function($, _, Backbone){
+define(["jquery", "underscore", "backbone", "jQ"], function($, _, Backbone){
 	/*
 	Backbone Portfolio View
 		I understand that it is an unwritten role of not combining JS and HTML.

@@ -1,8 +1,4 @@
-define([
-	"jquery",
-	"underscore",
-	"backbone",
-	"formVal"], function($, _, Backbone){
+define(["jquery", "underscore", "backbone", "formVal"], function($, _, Backbone){
 	/*
 	Backbone Contact View
 		I understand that it is an unwritten role of not combining JS and HTML.
