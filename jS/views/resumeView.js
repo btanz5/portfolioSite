@@ -1,7 +1,7 @@
 define(["jquery", "underscore", "backbone"], function($, _, Backbone){
 	/*
 	Backbone Resume View
-		I understand that it is an unwritten role of not combining JS and HTML.
+		I understand that it is an unwritten rule of not combining JS and HTML.
 			Until I determine a proper means of implementing this content, this works
 			for me. Thanks - @bTanz5(5/2015)
 					*/
