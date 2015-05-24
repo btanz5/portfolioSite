@@ -242,7 +242,10 @@ label, #valConf{
 }
 	#inquiryForm input[type="submit"],#inquiryForm input[type="reset"]{
 		width: 25%;
-		font-size: 2em;
+		font-size: 1em;
+		margin-right: 5%;
+		-webkit-border-radius: 3%;
+		        border-radius: 3%;
 	}
 /*===========================Thank-You Page===========================*/
 /*===================================================================*/

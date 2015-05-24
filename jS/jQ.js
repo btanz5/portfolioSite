@@ -1,7 +1,7 @@
 define(["jquery"], function($){
 
 	/*=========
-			Basic jQuery for page UX enhancements 
+			Basic jQuery for main page and thank you page UX enhancements 
 							=========*/
 	$(function() {
 		/*On mouse over of "social media" in the greeting paragraph
@@ -24,7 +24,7 @@ define(["jquery"], function($){
 		
 		//Page links changes font size on mouse over.
 		$(".siteNavItems").mouseover( function() { 
-			$(this).css({fontSize : "2em"});
+			$(this).css({fontSize : "1.75em"});
 		});
 		
 		//Page links changes font size on mouse out.
@@ -45,7 +45,7 @@ define(["jquery"], function($){
 		//Hover over "contact form" in intro paragraph, "contact" link 
 		//fontSize will change.
 		$(".contactHighlight").mouseover( function() { 
-			$("#contact").css({fontSize : "2em"});
+			$("#contact").css({fontSize : "1.75em"});
 		});
 		
 		//Hover out "contact form" in intro paragraph, "contact" link 
@@ -54,13 +54,5 @@ define(["jquery"], function($){
 			$("#contact").css({fontSize : "1.5em"});
 		});
 		
-		//highlight gitHub page when you hove over portfolio gitHub text
-		$(".gitHubhighlight").mouseover(function(){
-			$(".github").addClass("git");
-		});
-		//remover github highlight when yuo move out of gitHub text
-		$(".gitHubhighlight").mouseout(function(){
-			$(".github").removeClass("git");
-		});
 	});
 });

@@ -1,4 +1,4 @@
-define(["jquery", "underscore", "backbone", "jQ"], function($, _, Backbone){
+define(["jquery", "underscore", "backbone"], function($, _, Backbone){
 	/*
 	Backbone Portfolio View
 		I understand that it is an unwritten rule of not combining JS and HTML.
@@ -9,6 +9,19 @@ define(["jquery", "underscore", "backbone", "jQ"], function($, _, Backbone){
 		tagName: "div",
 		className: "pageContent",
 		id: "benPortfolio",
+
+		events: {
+			"mouseover .gitHubhighlight" : "enterGit",
+			"mouseleave .gitHubhighlight"  : "leaveGit"
+		},
+
+		enterGit: function() {
+			$(".github").addClass("git");
+		},
+
+		leaveGit: function(){
+			$(".github").removeClass("git");
+		},
 
 		render: function(){			
 			this.$el.html("<div id='benPortfolio' class='pageContent'><p>I am always working on new projects. The best place to see current and past project is at my <span class='gitHubhighlight'>Git Hub account.</span> Please feel free to stop back later to see any new professional additions. Current projects that I have worked on and published can be accessed via the following links.</p><p> Thank You and Enjoy!</p><nav><a href='http://www.jbtbottling.com' class='portfolioLinks'>JBT Mobile Botting</a></nav></div>");
